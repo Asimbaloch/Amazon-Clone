@@ -8,16 +8,82 @@
     height: 60px;
     background-color: #0f1111;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .nav-logo {
     height: 60px;
     width: 113px;
+    
 }
 .logo{
     background-image: url("images/logo.jfif");
     background-position: center;
     background-size:cover;
-    height: 60px;
+    height: 50px;
     width: 100%;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid wheat;
+}
+
+#first {
+    color: #CCCCCC;
+    font-size: 14px;
+    margin-left: 15px;
+
+}
+
+#second {
+    color: #FFFFFF;
+    font-size: 12px;
+    
+}
+
+
+.locationicon {
+    display: flex;
+}
+
+.searchbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(177, 175, 53, 0.767);
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+}  
+
+.All {
+    background-color: #E6E6E6;
+    color: #0f1111;
+    width: 46px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+}
+
+#searchinput {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.searchicon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    ba
+
 }
